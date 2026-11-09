@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+﻿# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# IDE（本地环境配置，不进入仓库）
+.idea/
+.vscode/
+
+# 本地密钥配置变体（.env.local 等），模板示例文件除外
+.env.*
+!/.env.example
